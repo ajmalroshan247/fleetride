@@ -55,7 +55,7 @@ class _SplashState extends State<Splash> {
           child: FloatingActionButton(child: Icon(Icons.forward),onPressed: (){
               Navigator.push(
     context,
-    MaterialPageRoute(builder: (context) => const Main()),
+    MaterialPageRoute(builder: (context) => const Mains()),
   );
           }),
         )

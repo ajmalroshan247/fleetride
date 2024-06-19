@@ -72,10 +72,10 @@ class _LoginnState extends State<Loginn> {
               ),
               onPressed: (){
 
-                 Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => const Home1()),
-  );
+  //                Navigator.push(
+  //   context,
+  //   MaterialPageRoute(builder: (context) => const Home1()),
+  // );
               }, child: Text("Login",style:GoogleFonts.kranky(textStyle:TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.bold

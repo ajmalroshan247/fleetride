@@ -1,18 +1,19 @@
 import 'package:fleetride/Police/AndroidLarge75.dart';
+import 'package:fleetride/User/Andriodlarge1.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Main extends StatefulWidget {
-  const Main({super.key});
+class Mains extends StatefulWidget {
+  const Mains({super.key});
 
   @override
-  State<Main> createState() => _MainState();
+  State<Mains> createState() => _MainsState();
 }
 
-class _MainState extends State<Main> {
+class _MainsState extends State<Mains> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -71,10 +72,10 @@ class _MainState extends State<Main> {
                 Row(
                   children: [
                      GestureDetector(onTap:(){
-  //                      Navigator.push(
-  //   context,
-  //   MaterialPageRoute(builder: (context) => const SecondRoute()),
-  // );
+                       Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const Loginn()),
+  );
                      } ,
                        child: Container(
                          height: 130,
